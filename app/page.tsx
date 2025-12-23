@@ -99,7 +99,7 @@ export default function Home() {
             <Card className="overflow-hidden pt-0">
               <div className="aspect-video overflow-hidden">
                 <Image
-                  src="/soto.jpg"
+                  src="/soto.webp"
                   width={400}
                   height={400}
                   alt="Soto"
@@ -118,7 +118,7 @@ export default function Home() {
             <Card className="overflow-hidden pt-0">
               <div className="aspect-video overflow-hidden">
                 <Image
-                  src="/gorengan.jpg"
+                  src="/gorengan.jpeg"
                   width={400}
                   height={400}
                   alt="gorengan"
@@ -137,7 +137,7 @@ export default function Home() {
             <Card className="overflow-hidden pt-0">
               <div className="aspect-video overflow-hidden">
                 <Image
-                  src="/sate.jpg"
+                  src="/sate.jpeg"
                   width={400}
                   height={400}
                   alt="Perkedel"
@@ -187,7 +187,7 @@ export default function Home() {
             </div>
             <div className="group relative overflow-hidden aspect-square rounded-xl">
               <Image
-                src="/cipto-roso-3.jpg"
+                src="/cipto-roso-3.jpeg"
                 height={250}
                 width={250}
                 alt="gallery 1"
@@ -196,7 +196,7 @@ export default function Home() {
             </div>
             <div className="group relative overflow-hidden aspect-square rounded-xl">
               <Image
-                src="/cipto-roso-4.jpg"
+                src="/cipto-roso-4.jpeg"
                 height={250}
                 width={250}
                 alt="gallery 1"
@@ -205,7 +205,7 @@ export default function Home() {
             </div>
             <div className="group relative overflow-hidden aspect-square rounded-xl">
               <Image
-                src="/cipto-roso-5.jpg"
+                src="/cipto-roso-5.png"
                 height={250}
                 width={250}
                 alt="gallery 1"
@@ -214,7 +214,7 @@ export default function Home() {
             </div>
             <div className="group relative overflow-hidden aspect-square rounded-xl">
               <Image
-                src="/cipto-roso-6.jpg"
+                src="/cipto-roso-6.png"
                 height={250}
                 width={250}
                 alt="gallery 1"
