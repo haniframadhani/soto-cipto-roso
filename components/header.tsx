@@ -6,13 +6,13 @@ import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
 
 const navigation = [
-  { name: "Home", href: "/" },
-  { name: "About", href: "#about" },
+  { name: "Beranda", href: "/" },
+  { name: "Tentang Kami", href: "#about" },
   { name: "Menu", href: "#menu" },
-  { name: "Gallery", href: "#gallery" },
-  { name: "Why Invest", href: "#invest" },
-  { name: "partnership Detail", href: "#detail" },
-  { name: "Contact", href: "#contact" },
+  { name: "Galeri", href: "#gallery" },
+  { name: "Mengapa Investasi", href: "#invest" },
+  { name: "Detail Mitra", href: "#detail" },
+  { name: "Kontak", href: "#contact" },
 ];
 
 export default function Header() {
@@ -44,7 +44,7 @@ export default function Header() {
           {/* Desktop CTA Button */}
           <Button className="hidden md:flex" asChild>
             <Link href="#contact">
-              <span className="truncate">Become a Partner</span>
+              <span className="truncate">Jadilah Mitra</span>
             </Link>
           </Button>
 
