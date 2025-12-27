@@ -9,11 +9,25 @@ const sansSerif = Work_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://soto-cipto-roso.vercel.app"),
   title: "Soto Cipto Roso",
   description:
     "Soto Cipto Roso adalah kedai soto khas Semarang yang mempunyai cita rasa yang lezat higienis dan mempunyai tempat yang nyaman. Kedai soto ini berdiri sejak tahun 2017 dengan lokasi di Yogyakarta yang mempunyai omzet harian saat ini mencapai 5 juta rupiah/hari.",
   openGraph: {
-    images: ["/opengraph-image.jpg"],
+    url: "https://soto-cipto-roso.vercel.app",
+    images: [
+      {
+        url: "https://soto-cipto-roso.vercel.app/opengraph-image.jpg",
+        width: 1200,
+        height: 675,
+      },
+    ],
+    title: "Soto Cipto Roso",
+    description:
+      "Soto Cipto Roso adalah kedai soto khas Semarang yang mempunyai cita rasa yang lezat higienis dan mempunyai tempat yang nyaman. Kedai soto ini berdiri sejak tahun 2017 dengan lokasi di Yogyakarta yang mempunyai omzet harian saat ini mencapai 5 juta rupiah/hari.",
+    siteName: "Soto Cipto Roso",
+    type: "website",
+    locale: "id_ID",
   },
   twitter: {
     card: "summary_large_image",
