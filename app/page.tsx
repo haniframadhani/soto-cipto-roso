@@ -112,8 +112,8 @@ export default function Home() {
                   Soto Cipto Roso adalah kedai soto khas Semarang yang mempunyai
                   cita rasa yang lezat higienis dan mempunyai tempat yang
                   nyaman. Kedai soto ini berdiri sejak tahun 2017 dengan lokasi
-                  di Kadisoka, Sleman, Yogyakarta yang mempunyai omzet harian
-                  saat ini mencapai 4 juta rupiah/hari.
+                  di Yogyakarta yang mempunyai omzet harian saat ini mencapai 5
+                  juta rupiah/hari.
                 </p>
                 <ol className="mt-4 space-y-3 text-foreground/80 text-lg text-start">
                   <li className="flex items-start gap-3">
@@ -385,7 +385,7 @@ export default function Home() {
                     className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-105"
                   />
                 </div>
-                <div className="group relative overflow-hidden aspect-square rounded-xl">
+                <div className="group relative overflow-hidden aspect-video md:aspect-square rounded-xl col-span-2 md:col-span-1">
                   <video
                     width="1920"
                     height="1080"
@@ -407,7 +407,7 @@ export default function Home() {
                 Jawa Barat 40135
               </p>
               <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mb-8">
-                <div className="group relative overflow-hidden aspect-square rounded-xl">
+                <div className="group relative overflow-hidden aspect-video rounded-xl col-span-2">
                   <video
                     width="1920"
                     height="1080"
@@ -429,7 +429,7 @@ export default function Home() {
                 Barat 16916
               </p>
               <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mb-8">
-                <div className="group relative overflow-hidden aspect-square rounded-xl">
+                <div className="group relative overflow-hidden aspect-video rounded-xl col-span-2">
                   <video
                     width="1920"
                     height="1080"
@@ -451,7 +451,7 @@ export default function Home() {
                 Pusat, Kabupaten Bekasi, Jawa Barat 17530
               </p>
               <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
-                <div className="group relative overflow-hidden aspect-square rounded-xl">
+                <div className="group relative overflow-hidden aspect-video rounded-xl col-span-2">
                   <video
                     width="1920"
                     height="1080"
