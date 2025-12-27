@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import { Playwrite_US_Trad } from "next/font/google";
 
 const navigation = [
   { name: "Beranda", href: "/" },
@@ -15,17 +16,24 @@ const navigation = [
   { name: "Kontak", href: "#contact" },
 ];
 
+const playwrite = Playwrite_US_Trad({
+  weight: ["400"],
+});
+
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <header className="sticky top-0 z-50 border-b border-solid border-gray-200 bg-white/80 backdrop-blur-sm">
-      <div className="mx-auto max-w-6xl px-4">
+      <div className="mx-auto max-w-7xl px-4 py-2">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="shrink-0">
-            <h2 className="text-xl font-bold leading-tight tracking-tight">
+            <h2
+              className={`text-3xl font-bold leading-tight tracking-tight text-primary`}
+            >
               Soto Cipto Roso
             </h2>
+            <span className="font-light text-sm leading-0.5 text-primary">Khas Semarang</span>
           </Link>
 
           {/* Desktop Navigation */}

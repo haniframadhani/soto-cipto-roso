@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://soto-cipto-roso.vercel.app"),
   title: "Soto Cipto Roso",
   description:
-    "Soto Cipto Roso adalah kedai soto khas Semarang yang mempunyai cita rasa yang lezat higienis dan mempunyai tempat yang nyaman. Kedai soto ini berdiri sejak tahun 2017 dengan lokasi di Yogyakarta yang mempunyai omzet harian saat ini mencapai 5 juta rupiah/hari.",
+    "Jadilah mitra pemilik Soto Cipro Roso. Dukung pelestarian rasa otentik Semarang sambil membangun aset bisnis Anda.",
   openGraph: {
     url: "https://soto-cipto-roso.vercel.app",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     ],
     title: "Soto Cipto Roso",
     description:
-      "Soto Cipto Roso adalah kedai soto khas Semarang yang mempunyai cita rasa yang lezat higienis dan mempunyai tempat yang nyaman. Kedai soto ini berdiri sejak tahun 2017 dengan lokasi di Yogyakarta yang mempunyai omzet harian saat ini mencapai 5 juta rupiah/hari.",
+      "Jadilah mitra pemilik Soto Cipro Roso. Dukung pelestarian rasa otentik Semarang sambil membangun aset bisnis Anda.",
     siteName: "Soto Cipto Roso",
     type: "website",
     locale: "id_ID",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Soto Cipto Roso",
     description:
-      "Soto Cipto Roso adalah kedai soto khas Semarang yang mempunyai cita rasa yang lezat higienis dan mempunyai tempat yang nyaman. Kedai soto ini berdiri sejak tahun 2017 dengan lokasi di Yogyakarta yang mempunyai omzet harian saat ini mencapai 5 juta rupiah/hari.",
+      "Jadilah mitra pemilik Soto Cipro Roso. Dukung pelestarian rasa otentik Semarang sambil membangun aset bisnis Anda.",
     images: {
       url: "/opengraph-image.jpg",
       alt: "Soto Cipto Roso",
