@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://soto-cipto-roso.vercel.app",
     images: [
       {
-        url: "https://soto-cipto-roso.vercel.app/opengraph-image.jpg",
+        url: "https://soto-cipto-roso.vercel.app/open-graph-image.jpg",
         width: 1200,
         height: 675,
       },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description:
       "Jadilah mitra pemilik Soto Cipro Roso. Dukung pelestarian rasa otentik Semarang sambil membangun aset bisnis Anda.",
     images: {
-      url: "/opengraph-image.jpg",
+      url: "https://soto-cipto-roso.vercel.app/open-graph-image.jpg",
       alt: "Soto Cipto Roso",
     },
   },
