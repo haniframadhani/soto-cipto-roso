@@ -1074,7 +1074,7 @@ export default function Home() {
               className="flex items-center justify-center gap-3 px-8 text-lg font-bold transition-transform hover:scale-105 text-primary h-16"
               asChild
             >
-              <Link href="">
+              <Link href="http://wa.me/6281242217979" target="_blank" rel="noopener noreferrer">
                 <Whatsapp className="size-6 text-primary" />
                 <span>Konsultasi Gratis via WhatsApp</span>
               </Link>
