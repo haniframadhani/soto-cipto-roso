@@ -12,7 +12,7 @@ const navigation = [
   { name: "Menu", href: "#menu" },
   { name: "Galeri", href: "#gallery" },
   { name: "Mengapa Investasi", href: "#invest" },
-  { name: "Detail Mitra", href: "#detail" },
+  // { name: "Detail Mitra", href: "#detail" },
   { name: "Kontak", href: "#contact" },
 ];
 
