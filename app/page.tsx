@@ -570,7 +570,7 @@ export default function Home() {
             </Card>
           </div>
         </section>
-        <section className="py-16 md:py-24" id="projection">
+        {/* <section className="py-16 md:py-24" id="projection">
           <div className="flex flex-col items-center gap-4 text-center">
             <h2 className="text-4xl font-bold leading-tight tracking-[-0.015em] text-foreground md:text-5xl">
               Skenario Penjualan Menuju Balik Modal
@@ -779,7 +779,7 @@ export default function Home() {
             kinerja sebelumnya dan kajian pasar. Realisasi hasil dimungkinkan
             untuk berbeda.
           </p>
-        </section>
+        </section> */}
         <section className="py-16 md:py-24" id="reviews">
           <div className="flex flex-col items-center gap-4 text-center">
             <h2 className="text-4xl font-bold leading-tight tracking-[-0.015em] text-foreground md:text-5xl">
